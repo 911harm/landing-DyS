@@ -1,0 +1,47 @@
+.section1{
+    width: 100%;
+    height: 450px;
+}
+.slider{
+    width: 50%;
+    height: 450px;
+    margin: 40px;
+    overflow: hidden;
+    ul{
+        animation: rueda 20s infinite;
+        display:flex;
+        width: 400%;
+        height: 200px;
+        li{
+            list-style: none;
+            width: 100%;
+            display: block;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+
+}
+@keyframes rueda{
+    0% {margin-left:0%;}
+    20% {margin-left:0%;}
+
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
+}/*
+@media(min-width:800px)
+{
+    .slider{
+        width: 60%;
+        margin-right: 40px;
+        margin-top:20px;
+        //margin: auto;
+    }
+}*/
