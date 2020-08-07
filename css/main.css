@@ -66,6 +66,13 @@ header #icon-menu {
   text-decoration: none;
 }
 
+.header-content .logo h1 a:hover {
+  color: #efbbcf;
+  opacity: 0.5;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
 .menu {
   height: 70px;
 }
@@ -104,6 +111,7 @@ header #icon-menu {
 }
 
 .menu nav ul li a:hover {
+  color: #efbbcf;
   opacity: 0.5;
   -webkit-transition: 300ms;
   transition: 300ms;

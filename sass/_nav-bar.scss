@@ -44,6 +44,11 @@ header{
         h1{
             a{
                 text-decoration: none;
+                &:hover{
+                    color: $pal-c-2;
+                    opacity: 0.5;
+                    transition:300ms;
+                }
             }
         }
     }
@@ -68,6 +73,7 @@ header{
                     text-decoration: none;
                     color: $pal-c-1;
                     &:hover{
+                        color: $pal-c-2;
                         opacity: 0.5;
                         transition:300ms;
                     }
