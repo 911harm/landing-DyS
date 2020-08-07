@@ -1,0 +1,97 @@
+header{
+    #icon-menu{
+        display: none;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        padding: 14px;
+        font-size: 24px;
+        background: $pal-c-1;
+        border-radius: 100%;
+        color: $pal-bg-2;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+.header-content{
+    // max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: $pal-bg-2;
+    display: flex;
+    height: 70px;
+    h1{
+        display:inline-block;
+        a{
+            position: relative;
+            top: -20px;
+            margin-left: 10px;
+            color: $pal-c-1;
+        }
+    }
+    .logo{
+        margin-top: 5px;
+        margin-right: 5px;
+        img{
+            width: 70px;
+            height: 60px;
+            border-radius: 100%;
+        }
+        h1{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.menu {
+    height: 70px;
+    nav{
+        height: 100%;
+        ul{
+            height: 100%;
+            display: flex;
+            list-style: none;
+            li{
+                height: 100%;
+                margin: 0px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                a{
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    color: $pal-c-1;
+                    &:hover{
+                        opacity: 0.5;
+                        transition:300ms;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.menu {
+    nav {
+        ul{
+            height: 100%;
+            display: flex;
+            list-style: none;
+            li{
+                height: 100%;
+                margin: 0px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+    
+            }
+        }
+    }
+}
