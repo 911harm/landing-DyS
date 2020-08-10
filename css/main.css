@@ -203,14 +203,24 @@ header #icon-menu {
 
 .section1 {
   width: 100%;
-  height: 450px;
+}
+
+.section1 h2 {
+  width: 30%;
+  color: #c3aed6;
+  display: inline-block;
+  position: relative;
+  font-size: 1.5rem;
+  top: -310px;
+  right: 0px;
 }
 
 .slider {
   width: 50%;
   height: 450px;
-  margin: 40px;
+  margin: auto auto;
   overflow: hidden;
+  display: inline-block;
 }
 
 .slider ul {
@@ -220,17 +230,19 @@ header #icon-menu {
   display: -ms-flexbox;
   display: flex;
   width: 400%;
-  height: 200px;
+  max-height: 450px;
 }
 
 .slider ul li {
   list-style: none;
+  display: inline-block;
   width: 100%;
-  display: block;
+  max-height: 100%;
 }
 
 .slider ul li img {
-  max-width: 100%;
+  display: inline-block;
+  max-width: 80%;
 }
 
 @-webkit-keyframes rueda {
@@ -288,6 +300,7 @@ header #icon-menu {
 }
 
 /*
+
 @media(min-width:800px)
 {
     .slider{
@@ -297,4 +310,95 @@ header #icon-menu {
         //margin: auto;
     }
 }*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  width: 322px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  border: 2px solid #8675a9;
+  color: #c3aed6;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.container p {
+  display: inline;
+}
+
+.container ul {
+  -webkit-animation: up 5s infinite;
+          animation: up 5s infinite;
+  padding-left: 10px;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+@-webkit-keyframes up {
+  0% {
+    margin-top: 0px;
+  }
+  20% {
+    margin-top: 0px;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: -40px;
+  }
+}
+
+@keyframes up {
+  0% {
+    margin-top: 0px;
+  }
+  20% {
+    margin-top: 0px;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: -40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

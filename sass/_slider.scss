@@ -1,23 +1,36 @@
 .section1{
     width: 100%;
-    height: 450px;
+    h2{
+        width: 30%;
+        color: $pal-bg;
+        display: inline-block;
+        position: relative;
+        font-size: 1.5rem;
+        top:-310px;
+        right: 0px;
+
+    }
 }
 .slider{
     width: 50%;
     height: 450px;
-    margin: 40px;
+    margin: auto auto;
     overflow: hidden;
+    display: inline-block;
     ul{
         animation: rueda 20s infinite;
         display:flex;
         width: 400%;
-        height: 200px;
+        max-height: 450px;
         li{
             list-style: none;
+            display:inline-block;
             width: 100%;
-            display: block;
+            // display: flexbox;
+            max-height: 100%;
             img{
-                max-width: 100%;
+                display:inline-block;
+                max-width: 80%;
             }
         }
     }
@@ -36,6 +49,7 @@
     75% {margin-left:-300%;}
     100% {margin-left:-300%;}
 }/*
+
 @media(min-width:800px)
 {
     .slider{
