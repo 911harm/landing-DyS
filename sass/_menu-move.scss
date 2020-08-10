@@ -9,6 +9,7 @@
 }
 @media (max-width:800px){
     .menu{
+        z-index: 100;
         width: 0px;
         height: 100vh;
         position: fixed;
